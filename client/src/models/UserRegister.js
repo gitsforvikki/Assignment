@@ -41,9 +41,8 @@ let {  errorMessage} = userInfo;
 
 let clickSubmitUser=(event)=>{
   event.preventDefault();
+  
   dispatch(userActions.registerUser(user , navigate));
-
-
 }
 
   return (
