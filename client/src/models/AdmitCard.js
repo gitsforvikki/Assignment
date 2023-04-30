@@ -35,15 +35,13 @@ let AdmitCard = ()=>{
         window.print();
       }
     } , 1000);
-    //navigate("/users/admit-card");
+    
     setTimeout(()=>{
       navigate("/users/admit-card");
     } , 1000);
   }
   return(
     <React.Fragment>
-      {/* <pre>{phoneNumber}</pre>
-      <pre>{JSON.stringify(userInfo)}</pre> */}
       <section className='p-2 bg-light text-dark'>
         <div className='container'>
           <div className='row' >
@@ -53,6 +51,9 @@ let AdmitCard = ()=>{
           </div>
         </div>
       </section>
+
+
+{/* Download form section */}
 
       <section className='p-2'>
         <div className='container '>
@@ -66,7 +67,6 @@ let AdmitCard = ()=>{
                 </div>
                 <input type="submit" className="btn btn-dark text-brown btn-sm" value="submit" />
                 <button onClick={downloadAdmit} className='btn btn-warning btn-sm text-dark'>Download</button>
-
               </form>
             </div>
           </div>

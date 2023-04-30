@@ -10,6 +10,7 @@ let UserRegister = ()=>{
   let dispatch = useDispatch();
   let navigate = useNavigate();
 
+  //local state management
   let [user , setUser] = useState({
     name : "",
     phone: "",
@@ -19,6 +20,7 @@ let UserRegister = ()=>{
     address: ""
   });
 
+  //update for on typing or changing
 let updateInput=(event)=>{
   setUser({
     ...user,
@@ -27,10 +29,12 @@ let updateInput=(event)=>{
 }
 
 
+//get userinfo from redux store
 let userInfo = useSelector((state)=>{
   return state[userReducer.userFeaturesKey];
 });
 
+//destructuring
 let {  errorMessage} = userInfo;
 
 let clickSubmitUser=(event)=>{
