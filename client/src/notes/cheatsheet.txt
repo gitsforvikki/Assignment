@@ -1,0 +1,36 @@
+Tech used:
+-------------
+
+Server:- node js/express 
+Front end :- React js  and bootstrap
+Database :- mongoDB(mongoose)
+State management :- React-Redux
+
+--------------------------------------------------------
+
+
+
+
+
+1.server side dependencies
+
+    "cors": "^2.8.5" -for cross browser operation
+    "dotenv": "^16.0.3" -for keep Environment variable
+    "express": "^4.18.2" -for server creation
+    "express-validator": "^7.0.1" - for server side form validation
+    "mongoose": "^7.1.0" - for mongoDB Database
+
+2. client side dependencies
+
+    "axios": "^1.4.0" ---> for API calling
+    "mdbootstrap": "^4.20.0" ---> Used as css framework
+    "react": "^18.2.0" ---> Frontend development
+    "react-redux": "^8.0.5"--->  for establish connection between redux store and react application
+    "react-router-dom": "^6.11.0"---> Used for routing
+    "redux": "^4.2.1"---> for redux state management
+
+    
+
+
+
+    ..................................Thanks...................................
