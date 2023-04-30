@@ -37,6 +37,8 @@ let userInfo = useSelector((state)=>{
 //destructuring
 let {  errorMessage} = userInfo;
 
+//form submit for registration
+
 let clickSubmitUser=(event)=>{
   event.preventDefault();
   dispatch(userActions.registerUser(user , navigate));
